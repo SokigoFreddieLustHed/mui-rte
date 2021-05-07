@@ -1,7 +1,7 @@
 {
-  "name": "mui-rte",
-  "version": "1.29.0",
-  "description": "Material-UI Rich Text Editor and Viewer",
+  "name": "@sokigofreddie/mui-rte",
+  "version": "1.29.2",
+  "description": "Material-UI Rich Text Editor and Viewer forked from niuware/mui-rte",
   "keywords": [
     "material-ui",
     "rich text editor",
@@ -12,12 +12,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/niuware/mui-rte.git"
+    "url": "https://github.com/SokigoFreddieLustHed/mui-rte.git"
   },
   "bugs": {
-    "url": "https://github.com/niuware/mui-rte/issues"
+    "url": "https://github.com/SokigoFreddieLustHed/mui-rte/issues"
   },
-  "homepage": "https://github.com/niuware/mui-rte#readme",
+  "homepage": "https://github.com/SokigoFreddieLustHed/mui-rte#readme",
   "main": "dist/index.js",
   "scripts": {
     "serve": "cross-env webpack-dev-server --mode development",
@@ -25,7 +25,7 @@
     "build": "cross-env NODE_ENV=production rollup -c",
     "test": "mocha -r ts-node/register test/setup.ts test/*.test.*"
   },
-  "author": "Erik Lopez",
+  "author": "Freddie Lust-Hed",
   "license": "MIT",
   "devDependencies": {
     "@material-ui/core": "^4.11.3",
@@ -74,6 +74,7 @@
     "immutable": "^3.8.2"
   },
   "files": [
+    "src",
     "dist",
     "index.js",
     "index.d.ts"
