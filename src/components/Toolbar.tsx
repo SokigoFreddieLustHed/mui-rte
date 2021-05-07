@@ -74,63 +74,63 @@ type TToolbarProps = {
 
 const STYLE_TYPES: TStyleType[] = [
     {
-        label: 'H2',
+        label: 'Rubrik',
         name: "title",
         style: 'header-two',
         icon: <TitleIcon />,
         type: "block"
     },
     {
-        label: 'Bold',
+        label: 'Fetstil',
         name: "bold",
         style: 'BOLD',
         icon: <FormatBoldIcon />,
         type: "inline"
     },
     {
-        label: 'Italic',
+        label: 'Kursiv',
         name: "italic",
         style: 'ITALIC',
         icon: <FormatItalicIcon />,
         type: "inline"
     },
     {
-        label: 'Underline',
+        label: 'Understruken',
         name: "underline",
         style: 'UNDERLINE',
         icon: <FormatUnderlinedIcon />,
         type: "inline"
     },
     {
-        label: 'Strikethrough',
+        label: 'Genomstruken',
         name: "strikethrough",
         style: 'STRIKETHROUGH',
         icon: <StrikethroughIcon />,
         type: "inline"
     },
     {
-        label: 'Highlight',
+        label: 'Markera',
         name: "highlight",
         style: 'HIGHLIGHT',
         icon: <HighlightIcon />,
         type: "inline"
     },
     {
-        label: 'Undo',
+        label: 'Ångra',
         name: "undo",
         style: "UNDO",
         icon: <UndoIcon />,
         type: "callback",
     },
     {
-        label: 'Redo',
+        label: 'Gör om',
         name: "redo",
         style: "REDO",
         icon: <RedoIcon />,
         type: "callback",
     },
     {
-        label: 'Link',
+        label: 'Länk',
         name: "link",
         style: 'LINK',
         icon: <InsertLinkIcon />,
@@ -146,42 +146,42 @@ const STYLE_TYPES: TStyleType[] = [
         id: "media-control"
     },
     {
-        label: 'UL',
+        label: 'Punktlista',
         name: "bulletList",
         style: 'unordered-list-item',
         icon: <FormatListBulletedIcon />,
         type: "block"
     },
     {
-        label: 'OL',
+        label: 'Numrering',
         name: "numberList",
         style: 'ordered-list-item',
         icon: <FormatListNumberedIcon />,
         type: "block"
     },
     {
-        label: 'Blockquote',
+        label: 'Citat',
         name: "quote",
         style: 'blockquote',
         icon: <FormatQuoteIcon />,
         type: "block"
     },
     {
-        label: 'Code Block',
+        label: 'Kodblock',
         name: "code",
         style: 'code-block',
         icon: <CodeIcon />,
         type: "block"
     },
     {
-        label: 'Clear',
+        label: 'Rensa formattering',
         name: "clear",
         style: 'clear',
         icon: <FormatClearIcon />,
         type: "callback"
     },
     {
-        label: 'Save',
+        label: 'Spara',
         name: "save",
         style: 'save',
         icon: <SaveIcon />,

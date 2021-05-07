@@ -32,9 +32,9 @@ describe('<EditorControls />', () => {
             "underline"
         ]
         const expected = [
-            "Save",
-            "Code Block",
-            "Underline"
+            "Spara",
+            "Kodblock",
+            "Understruken"
         ]
         const wrapper = mount(
             <Toolbar
